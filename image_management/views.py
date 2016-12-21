@@ -1,6 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework import generics, permissions, status
-from serializers import PhotoSerializer,PhotoDeleteSerializer
+from serializers import PhotoSerializer
 from rest_framework.response import Response
 from models import Photo
 from time import gmtime, strftime
