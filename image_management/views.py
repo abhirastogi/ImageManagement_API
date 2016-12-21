@@ -8,7 +8,7 @@ from time import gmtime, strftime
 class PhotoUpload(APIView):
 	queryset = Photo.objects.all()
 	serializer_class = PhotoSerializer
-	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+	#permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 	def get_object(self, file_name):
 		try:
 			return Photo.objects.get(file_name=file_name)
