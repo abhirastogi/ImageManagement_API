@@ -37,7 +37,7 @@ class PhotoUpload(APIView):
 
 
 	def post(self, request, *args, **kwargs):
-		import pdb; pdb.set_trace()
+		#import pdb; pdb.set_trace()
 	 	fname = "photo_"+strftime("%Y%m%d_%H%M", gmtime())
 
 	 	photo = self.check_if_exist(request.data['image'].name)
