@@ -115,7 +115,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-ALLOWED_HOSTS = [u'floating-brook-43951.herokuapp.com']
+ALLOWED_HOSTS = [u'floating-brook-43951.herokuapp.com', u'localhost']
 
 
 # Static files (CSS, JavaScript, Images)
